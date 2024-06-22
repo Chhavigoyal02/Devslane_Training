@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  p {
+    background: red;
+    padding: 8px;
+    border: 2px blue solid;
+  }
+  
+  div {
+    height: 100vh;
+    background: green;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    justify-content:center;
+  }
+  @media (min-width:667px){
+    div{
+      flex-direction:row;
+    }
+  }

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 180px auto;
+    padding: 50px;
+    background-color: #45d6be;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .option-group {
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:space-between
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }

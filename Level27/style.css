@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    width: 100%;
+    max-width: 500px;
+}
+
+.images {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.price {
+    font-size: 28px;
+}
+
+.description {
+    font-size: 16px;
+    color: gray;
+}
+
+h1, .price, .description {
+    font-family: Tahoma, Geneva, Verdana;
+}
+
+button {
+    border: none;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.thumbnails>img {
+    min-width: 0;
+}
+
+.thumbnails {
+    display: none;
+}
+
+body {
+    padding: 10px;
+}
+
+@media (min-width: 750px) {
+    .product {
+        flex-direction: row-reverse;
+        border: 2px solid gray;
+        border-radius: 20px;
+        padding: 30px;
+        margin: auto;
+    }
+
+    .images {
+        width: 40%;
+    }
+
+    .details {
+        width: 60%;
+    }
+
+    button {
+        align-self: flex-start;
+    }
+
+    .thumbnails {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 900px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .price {
+        font-size: 35px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+}
