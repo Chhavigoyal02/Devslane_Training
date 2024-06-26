@@ -1,0 +1,32 @@
+let x=prompt("Aap India ke konse state ka capital dekhna chahte ho?");
+let capitals={
+  'Andhra Pradesh ': 'Amaravati',
+  'Arunachal Pradesh':'Itanagar',
+  Assam : 'Dispur',
+  Bihar : "Patna",
+  Chhattisgarh : 'Raipur',
+  Goa : 'Panaji',
+  Gujarat : 'Gandhinagar',
+  Haryana : 'Chandigarh',
+  'Himachal Pradesh' : 'Shimla',
+  Jharkhand : 'Ranchi',
+  Karnataka : 'Bangalore',
+  Kerala : 'Thiruvananthapuram',
+  'Madhya Pradesh' : 'Bhopal',
+  Maharashtra : 'Mumbai',
+  Manipur : 'Imphal',
+  Meghalaya : 'Shillong',
+  Mizoram : 'Aizawl',
+  Nagaland : 'Kohima',
+  Odisha : 'Bhubaneshwar',
+  Punjab : 'Chandigarh',
+  Rajasthan : 'Jaipur',
+  Sikkim : 'Gangtok',
+  'Tamil Nadu' : 'Chennai',
+  Telangana : 'Hyderabad',
+  Tripura : 'Agartala',
+  Uttarakhand : 'Dehradun',
+  'Uttar Pradesh' : 'Lucknow',
+  'West Bengal' : 'Kolkata'
+}
+document.write(capitals[x]);
